@@ -26,11 +26,11 @@ class Menu(tk.Frame):
     def __init__(self, master):
         tk.Frame.__init__(self, master)
         self.title = master.title("IMAGE EDITOR")
-        self.im = PhotoImage(file="Ala-Too.png")
+        self.im = PhotoImage(file="IAAU-LOGO.jpg")
         self.iconphoto = master.iconphoto(False, self.im)
         # self.resizable = master.resizable(0, 0)
 
-        self.logo = ImageTk.PhotoImage(Image.open("Ala-Too.png"))
+        self.logo = ImageTk.PhotoImage(Image.open("IAAU-LOGO.jpg"))
         tk.Label(self, image=self.logo).pack(side="top")
         tk.Label(self, text="IMAGE EDITOR", font="Times_New_Roman"
                  ).pack(side="top", fill="x", pady=10)
