@@ -1,13 +1,30 @@
-# Your GitHub Learning Lab Repository for Introducing GitHub
+IMAGE EDITOR
+This image editor which was created based on my Image code. I added a graphical user interface to it using the Tkinter library. In order for everything to work well without any problems, you will have to download all the files that I uploaded to this repository. Create a separate folder for them and upload there. And using VS code open that folder. Just in case, run all the modules, and at the end, run main.py.
+On the image you can see the GUI itself
 
-Welcome to **your** repository for your GitHub Learning Lab course. This repository will be used during the different activities that I will be guiding you through. See a word you don't understand? We've included an emoji 📖 next to some key terms. Click on it to see its definition.
 
-Oh! I haven't introduced myself...
+IT HAS 6 FUNCTIONS
+1. Add Watermark - adds a watermark to the image you have selected.
+2. Black and White - adds a watermark to the image you have selected.
+3. Resize - resizes the image.
+4. MIX - all these 1-3 functions are added to the image.
+5. Copyright Section - it is the Copyright notification.
+6. Exit - quit the GUI.
+For example let's take the "Add Watermark" funtion
+Firstly you should click on the button
 
-I'm the GitHub Learning Lab bot and I'm here to help guide you in your journey to learn and master the various topics covered in this course. I will be using Issue and Pull Request comments to communicate with you. In fact, I already added an issue for you to check out.
 
-![issue tab](https://lab.github.com/public/images/issue_tab.png)
+And then you will have two buttons. First is the "Select Image" button, which we need. Second is the "Return to Menu" button
 
-I'll meet you over there, can't wait to get started!
 
-This course is using the :sparkles: open source project [reveal.js](https://github.com/hakimel/reveal.js/). In some cases we’ve made changes to the history so it would behave during class, so head to the original project repo to learn more about the cool people behind this project.
+Select your image
+
+
+And finally save the file
+
+
+CODE CHANGES
+If you want to change the watermark text. You can change in watermark.py
+
+
+If you want to resize an image. You can change in size.py
